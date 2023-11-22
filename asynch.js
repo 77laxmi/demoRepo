@@ -1,7 +1,7 @@
 const promise =  new Promise((res,rej) => {
      setTimeout(()=>{
        let x = 5 ;
-       if(x<= 10){
+       if(x<= 4){
         res('promise is resolved')
        } else{
         rej('Promise is rejected')
